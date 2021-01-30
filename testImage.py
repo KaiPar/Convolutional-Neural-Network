@@ -29,4 +29,16 @@ def run_example():
         print(digit[0])
 
 
+"""
+    To run the Neural Network against any input un-comment the code below and comment the function above
+"""
+
+"""
+def run_example():
+    img = load_image("<your path to the file>")
+    model = load_model('final_model.h5")
+    digit = model.predict_classes(img)
+    print(digit[0])
+"""
+
 run_example()
